@@ -1,0 +1,19 @@
+main: site.modicum.rgbf.RGBF
+name: RGBF
+version: '1.0'
+description: Retribution Gaming Backpack Fix
+author: Iggysaur
+website: site.modicum
+
+commands:
+  rgbf:
+    aliases: backpackfix
+    usage: /<command> [add|remove|check]
+    description: Retribution Gaming BackpackFix
+    permission: rgbf.admin
+    permission-message: You do not have permission!
+
+permissions:
+  rgbf.admin:
+    description: ability to use /rgbf
+    default: op
